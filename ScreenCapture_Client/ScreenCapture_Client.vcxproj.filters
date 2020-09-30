@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="wcomm.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{f39967f6-f5d7-4585-8037-d7a7d3d33408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{7b6e342a-4b16-40a5-9f56-1cab5d5997eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wcomm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="capture.hpp">
+      <Filter>Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
